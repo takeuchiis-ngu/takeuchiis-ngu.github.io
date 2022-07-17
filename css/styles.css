@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+html {
+    background: linear-gradient(45deg, #FFFFEE, #FFFFCC);
+}
+
+h1 {
+    text-align: center;
+    border: 4px dashed #FF6666;
+    border-radius: 12px;
+    margin: 10px 10px 50px;
+}
+
+nav > a {
+    font-size: 18px;
+    display: inline;
+    margin: 0 16px 0 0;
+    padding: 10px;
+    border: 2px solid navy;
+    border-radius: 50px;
+}
+
+a:hover {
+    font-size: 1.3em;
+    color: black;
+}
+
+h2 {
+    margin: 30px 0 0 0;
+}
+
+h2::first-letter {
+    font-size: 2em;
+    color: brown;
+}
+
+#setu {
+    font-size: 20px;
+}
+
+div > p {
+    font-family: serif;
+    font-size: 20px;
+
+}
+
+.flex {
+    display: flex;
+    width:auto;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 20px 0 50px 0;
+}
+
+
+main {
+
+    
+    font-size: 17px;
+    border-radius: 12px;
+    margin: 0 100px 10px 20px;
+    padding: 0 30px;
+    background-color: 	#FFFFBB;
+    order: 1;
+}
+
+aside {
+
+    border-radius: 12px;
+    margin: 10px 10px 30px;
+    padding: 0px 30px;
+    background-color: #FFDBC9;
+    order: 2;
+}
+
+div > div {
+    margin: 0 0 40px 0;
+}
+
+div > a {
+    font-family: serif;
+    font-size: 20px;
+}
+
+button {
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 7px;
+    margin: auto;
+}
+
+#zenith {
+    background-color: aquamarine;
+    margin: 100px 0px 10px 0px;
+}
+
+#seiko {
+    background-color: #66c7ff;
+    margin: 50px 0px 10px 0px;
+
+}
+
+#rolex {
+    background-color: #d166ff;
+    margin: 50px 0px 10px 0px;
+
+}
+
+#vachern {
+    background-color: #FF6666;
+    margin: 50px 0px 10px 0px;
+
+}
+
+#pige {
+    background-color: #d4ff66;
+    margin: 50px 0px 10px 0px;
+
+}
+
+table {
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+th {
+    border: 2px solid;
+}
+
+td {
+    border: 2px solid;
+}
+
+#kekka {
+    font-size: 24px;
+}
+
+#result {
+    font-size: 24px;
+}
+
+#page {
+    font-size: 20px;
+}
+
+#page2 {
+    font-size: 20px;
+}
+
+#pigep {
+    margin: 20px 0px 60px 0px;
+}

@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+html {
+    background: linear-gradient(45deg, #EEFFFF, #b6d6f7);
+}
+
+h2::first-letter {
+    font-size: 2em;
+    color: brown;
+}
+
+div > div {
+    font-family: serif;
+    font-size: 20px;
+}
+
+div > p {
+    font-family: serif;
+    font-size: 20px;
+}
+
+img {
+    width: auto;
+    padding: 100px;
+    border-radius: 1000px;
+    margin: 0 auto;
+    overflow:hidden; 
+    transition:1s all;
+   
+}
+
+body > div > p > img:hover {
+    transform:scale(1.2,1.2);
+    transition:1s all;
+}
+
+a:hover {
+    font-size: 1.1em;
+    color: black;
+}

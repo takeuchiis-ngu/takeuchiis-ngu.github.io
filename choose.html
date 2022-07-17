@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Taizo TAKEUCHI">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>機械式時計の紹介</title>
+
+</head>
+
+<body>
+    <header>
+        <h2>あなたに合った時計ブランドを選んでみましょう</h2>
+    </header>
+
+    <div>
+        <p id="setu">スタート/リセットボタンを押して出てきた質問にYESかNOで答えてください。<br>        </p>
+        <button type="button" id="button" onclick="start()">スタート/リセット</button>
+        <p id="result" style="text-align:center"></p>
+        <button type="button" id="button2" onclick="question(0)" disabled>NO</button>
+        <button type="button" id="button3" onclick="question(1)" disabled>YES</button>
+
+    </div>
+
+    <div>
+        <h3 id="kekka">結果表</h3>
+
+        <table>
+            <tr>
+                <!-- th:見出し用セル -->
+                <th></th>
+                <th>ブランド名</th>
+                <th>紹介リンク</th>
+            </tr>
+            <!-- tr:行を表すセル -->
+            <tr>
+                <th>1番</th>
+                <td>ゼニス</td>
+                <td><a href="#zenith">ゼニス</a></td>
+            </tr>
+            <tr>
+                <th>2番</th>
+                <td>オメガ</td>
+                <td><a href="omega.html">オメガ</a></td>
+            </tr>
+            <tr>
+                <th>3番</th>
+                <td>セイコー</td>
+                <td><a href="#seiko">セイコー</a></td>
+            </tr>
+            <tr>
+                <th>4番</th>
+                <td>グランドセイコー</td>
+                <td><a href="seiko.html">グランドセイコー</a></td>
+                
+            </tr>
+            <tr>
+                <th>5番</th>
+                <td>ロレックス</td>
+                <td><a href="#rolex">ロレックス</a></td>
+            </tr>
+            <tr>
+                <th>6番</th>
+                <td>ヴァシュロンコンスタンタン</td>
+                <td><a href="#vachern">ヴァシュロンコンスタンタン</a></td>
+            </tr>
+            <tr>
+                <th>7番</th>
+                <td>ランゲアンドゾーネ</td>
+                <td><a href="lange.html">ランゲアンドゾーネ</a></td>
+            </tr>
+            <tr>
+                <th>8番</th>
+                <td>オーデマピゲ</td>
+                <td><a href="#pige">オーデマピゲ</a></td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div>
+        <h3 id="zenith">ゼニス</h3>
+        <p>ゼニスは1865年に創業されたスイスの高級時計ブランドです。「エル・プリメロ」と呼ばれるムーブメントは世界的にも高く評価され人気を集めます。時計の中の機構が見えるオープンワークと呼ばれるデザインはとても人気です。ゼニスの象徴的なマークの星型は少し遊び心をくすぐるものとなっています。<a href="https://www.zenith-watches.com/ja_jp" target="_blank">ゼニス公式</a></p>
+        <h3 id="seiko">セイコー</h3>
+        <p>日本の会社であるセイコーは1881年創業と、時計業界の中でもかなり歴史が古く、それだけ長く愛されているブランドだとわかります。その魅力は正確さであり、東京オリンピックの公式時計を務めました。今でも比較的手ごろな値段で充分に楽しめる時計を作っています。<a href="https://www.seikowatches.com/jp-ja" target="_blank">セイコー公式</a></p>
+        <h3 id="rolex">ロレックス</h3>
+        <p>ロレックスは1905年にロンドンで設立されました。ロレックスは何と言っても知名度が高いです。人気のモデルは高騰し、定価の何倍もの値段で取引されることや、買値と売値で価値が変わりずらいことから資産価値が高いという特徴があります。<a href="https://www.rolex.com/ja" target="_blank">ロレックス公式</a></p>
+        <h3 id="vachern">ヴァシュロンコンスタンタン</h3>
+        <p>ヴァシュロンコンスタンタンは1755年にスイスで創業された、名門中の名門の老舗時計ブランドです。世界三大時計ブランドの1つでもあります。様々なタイプの時計を製造しており、1つのブランドのなかでどの時計にするか迷ってしまうほど、どれも美しいモデルになっています。<a href="https://www.vacheron-constantin.com/jp/ja/home.html" target="_blank">ヴァシュロンコンスタンタン公式</a></p>
+        <h3 id="pige">オーデマピゲ</h3>
+        <p id="pigep">オーデマピゲは1875年にスイスで創業されました。高級時計ブランドの中ではラグジュアリーの時計が有名だと思います。世界五大時計の1つでもあり、大衆向けというよりは200万円を超えるほどの高額な時計をメインに作っています。オーデマピゲの時計は、好きな人はとことん好みな、そんな特徴を持った時計ブランドです。<a href="https://www.audemarspiguet.com/com/ja/home.html" target="_blank">オーデマピゲ公式</a></p>
+    </div>
+    <a href="lange.html" id="page">前のページ</a>　　<a href="index.html" id="page2">目次に戻る</a>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
